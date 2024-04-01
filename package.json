@@ -1,0 +1,14 @@
+{
+  "name": "ti.2022.1805.001",
+  "version": "0.1.0",
+  "description": "Lista de exercícios resolvidas em sala de aula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Cabral Tannús",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
