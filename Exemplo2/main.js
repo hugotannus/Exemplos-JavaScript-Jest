@@ -1,4 +1,4 @@
-import { soma, calcula, multiplica, area } from './operacoes.mjs';
+import { soma, calcula, multiplica, area } from './operacoes.js';
 
 let a = 10;
 let b = 5;
