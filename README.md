@@ -56,14 +56,11 @@ Abra o arquivo `package.json` e altere/adicione as linhas conforme destacado a s
 
 ```json
 {
-  ...
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js",
     "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js --watch"
   },
-  ...,
   "type": "module",
-  ...
 }
 ```
 
@@ -103,6 +100,9 @@ npm test:watch example.test.js  # monitora arquivo(s) de teste específico(s)
 ## Node.js
 - [NPM - cross-env](https://www.npmjs.com/package/cross-env)
 - ['NODE_OPTIONS' is not recognized as an internal or external command (Stack Overflow)](https://stackoverflow.com/questions/53948521/node-options-is-not-recognized-as-an-internal-or-external-command)
+
+## Git
+- [Lazy man's guide: multiple GitHub HTTPS accounts on Windows](https://dev.to/configcat/lazy-man-s-guide-multiple-github-https-accounts-on-windows-2mad)
 
 ---
 [Mark Down - Sintaxe Básica](https://www.markdownguide.org/basic-syntax/)
