@@ -4,7 +4,8 @@
   "description": "Lista de exercícios resolvidas em sala de aula",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js --watch"
   },
   "author": "Hugo Cabral Tannús",
   "license": "ISC",
@@ -12,7 +13,7 @@
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "jest": {
-    "transform": {}
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
