@@ -1,12 +1,12 @@
-export function resolve(lines) {
-    let maior;
+export function solucao(lines) {
+    let N = lines[0].split(' ');
     
-    // resolução aqui
+    let a = Number(N[0]);
+    let b = Number(N[1]);
+    let c = Number(N[2]);
+    
+    let maior = Math.max(a,b);
+    maior = Math.max(maior,c);
     
     return maior + " eh o maior";
 }
-
-// let maior = resolve(lines);
-// console.log(`${maior} eh o maior`)
-
-console.log(resolve(lines));

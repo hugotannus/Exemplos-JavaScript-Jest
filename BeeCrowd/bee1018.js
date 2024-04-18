@@ -1,6 +1,4 @@
-export function resolve(lines) {
+export function solucao(lines) {
     // resolução do problema
     return [];
 }
-
-let cedulas = resolve(lines);

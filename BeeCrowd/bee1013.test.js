@@ -1,22 +1,29 @@
-describe('Cenários de Teste', () => {
-    const cenarios = [
-        {
-            lines: ["7 14 106"],
-            result: "106 eh o maior"
-        },
-        {
-            lines: ["217 14 6"],
-            result: 217
-        }
-    ]
+import { solucao } from "./bee1013"
 
-    cenarios.forEach((cenario, i) => {
-        test('Caso #' + i, () => {
-            let { lines, result } = cenario;
 
-            let output = resolve(lines);
 
-            expected(output).toBe(result);
+describe('BeeCrowd 1013 - "O Maior', () => {
+    describe('Casos de Teste', () => {
+        test('Caso #1', () => {
+            let entrada = ["7 14 106"];
+            let saidaEsperada = "106 eh o maior"
+
+            let saida = solucao(entrada);
+
+            expect(saida).toBe(saidaEsperada);
         });
+
+        test('Caso #2', () => {
+            let entrada = ["217 14 6"];
+            let saidaEsperada = "217 eh o maior"
+
+            let saida = solucao(entrada);
+
+            expect(saida).toBe(saidaEsperada);
+        });
+    });
+
+    describe('Exemplos de tratamento de Entrada', () => {
+        
     })
 });
