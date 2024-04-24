@@ -568,5 +568,4 @@ function maior(a, b, c) {
 
 ---
 
-9. **_Transforme_** um número escrito em algarismos romanos (entre `I` e `C`) por extenso
-
+9. **_Transforme_** um número escrito em algarismos romanos (entre $I$ e $C$) por extenso.
