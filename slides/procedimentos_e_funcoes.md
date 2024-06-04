@@ -3,12 +3,63 @@ marp: true
 theme: gaia
 paginate: true
 size: 4:3
-class: invert
+class: lead invert
 math: mathjax
 ---
+
 <!-- _class: lead -->
 
-# Procedimentos & Funções
+# Funções
+
+---
+<!-- _class: lead invert -->
+
+## O que é uma **Função**?
+
+> "De modo geral, uma **função** é um *subprograma* que pode ser chamado por código externo à função."
+
+---
+<!-- _class: lead invert -->
+
+## O que é uma **Função**?
+
+> "Uma **função** é composta por uma sequência de instruções chamada **corpo da função**. **Valores** podem ser passados para uma função e ela vai **retornar um valor**."
+
+---
+<!-- _class: lead invert -->
+
+## Exemplos de **Funções**?
+
+````python
+input();
+print("Hello World!")
+````
+
+````javascript
+console.log();
+prompt("Hello World!")
+parseFloat(n);
+````
+
+````javascript
+Math.pow(10, 5);
+````
+
+---
+
+## Função
+
+<!-- _class: lead invert -->
+
+```js
+function soma(a, b) {
+    let total = a + b;
+    return total;
+}
+```
+
+- **Entrada:** inteiros `a` e `b`
+- **Saída:** inteiro `total`
 
 ---
 
@@ -26,6 +77,7 @@ function maior(a, b, c) {
 ```
 - **Entrada:** _???_
 - **Saída:** _???_
+
 ---
 
 ## Função
@@ -79,7 +131,7 @@ function maior(a, b, c) {
 
 ---
 
-## Procedimento
+## Função
 
 <!-- _class: lead invert -->
 
@@ -96,7 +148,7 @@ function maior(a, b, c) {
 
 ---
 
-## Procedimento
+## Função
 
 <!-- _class: lead invert -->
 
@@ -113,7 +165,7 @@ function maior(a, b, c) {
 
 ---
 
-## Procedimento
+## Função
 
 <!-- _class: lead invert -->
 
@@ -130,7 +182,7 @@ function maior(a, b, c) {
 
 ---
 
-## Procedimento
+## Função
 
 <!-- _class: lead invert -->
 
@@ -145,6 +197,29 @@ function maior(a, b, c) {
 - **Entrada:** `12`, `105` e `93`
 - **Saída:** `undefined`
 
+---
+
+## ~~Função~~ **Procedimento**
+
+<!-- _class: lead invert -->
+
+```js
+function maior(a, b, c) {
+    let maior = Math.max(a,b);
+    maior = Math.max(maior,c);
+    
+    console.log(maior + " eh o maior");
+}
+```
+- **Entrada:** `12`, `105` e `93`
+- **Saída:** `undefined`
+
+---
+<!-- _class: lead invert -->
+
+## O que é um **Procedimento**?
+
+> _"Um **procedimento** é um conjunto de instruções que executa uma tarefa ou calcula um valor."_
 ---
 
 ### Função
